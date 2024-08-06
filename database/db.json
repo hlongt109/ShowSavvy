@@ -1,0 +1,219 @@
+{
+  "users": [
+    {
+      "id": "e017",
+      "email": "long24@gmail.com",
+      "password": "long24",
+      "name": "",
+      "username": "",
+      "phone": "",
+      "address": [],
+      "gender": "",
+      "birthday": "",
+      "avatar": "",
+      "policyAndTerms": "agree"
+    },
+    {
+      "id": "b080",
+      "email": "hien109@gmail.com",
+      "password": "Hien109",
+      "name": "",
+      "username": "",
+      "phone": "",
+      "address": [],
+      "gender": "",
+      "birthday": "",
+      "avatar": "",
+      "policyAndTerms": "agree"
+    },
+    {
+      "id": "1461",
+      "email": "long8888@gmail.com",
+      "password": "long8888",
+      "name": "",
+      "username": "",
+      "phone": "",
+      "address": [],
+      "gender": "",
+      "birthday": "",
+      "avatar": "",
+      "policyAndTerms": "agree"
+    }
+  ],
+  "shop": [
+    {
+      "id": "shop1",
+      "ownerId": "us1",
+      "shopName": "hlong1402",
+      "pickupLocation": "ngõ 103/19 đường Phương Canh, Nam Từ Liêm, Hà Nội",
+      "email": "long109@gmail.com",
+      "phoneNumber": "0869070822",
+      "deliveryService": [
+        {
+          "id": "sv1",
+          "name": "Express Delivery"
+        },
+        {
+          "id": "sv2",
+          "name": "Economical Delivery"
+        }
+      ],
+      "avatar": ""
+    },
+    {
+      "id": "ce50",
+      "ownerId": "e017",
+      "shopName": "lhb109",
+      "pickupLocation": "ngo 103/19, duong Phuong Canh",
+      "email": "long24@gmail.com",
+      "phoneNumber": "0869070822",
+      "deliveryService": [
+        {
+          "id": "dsv1",
+          "name": "Express Delivery"
+        },
+        {
+          "id": "sv2",
+          "name": "Economical Delivery"
+        }
+      ],
+      "avatar": ""
+    }
+  ],
+  "productType": [
+    {
+      "id": "type1",
+      "name": "Fashion"
+    },
+    {
+      "id": "type2",
+      "name": "Beauty"
+    },
+    {
+      "id": "type3",
+      "name": "Electronics"
+    },
+    {
+      "id": "type4",
+      "name": "Food & Drink"
+    },
+    {
+      "id": "type5",
+      "name": "Footwear"
+    },
+    {
+      "id": "type6",
+      "name": "Bags & Wallets"
+    },
+    {
+      "id": "type7",
+      "name": "Mother & Baby"
+    },
+    {
+      "id": "type8",
+      "name": "Books & Magazines"
+    },
+    {
+      "id": "type9",
+      "name": "Health"
+    },
+    {
+      "id": "type10",
+      "name": "Watches"
+    },
+    {
+      "id": "type11",
+      "name": "Fashion accessories"
+    },
+    {
+      "id": "type12",
+      "name": "Sports & Outdoors"
+    },
+    {
+      "id": "type13",
+      "name": "Pet Care"
+    },
+    {
+      "id": "type14",
+      "name": "Home & Lifestyle"
+    }
+  ],
+  "products": [
+    {
+      "id": "pro1",
+      "shopId": "shop1",
+      "photos": [
+        {
+          "id": "photo1",
+          "photo": ""
+        }
+      ],
+      "name": "Áo phông nam",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "type": "type1",
+      "color": [
+        {
+          "id": "color1",
+          "name": "Black",
+          "photo": ""
+        },
+        {
+          "id": "color1",
+          "name": "White",
+          "photo": ""
+        }
+      ],
+      "sizes": [
+        {
+          "id": "sz1",
+          "size": "S",
+          "price": 150000
+        },
+        {
+          "id": "sz2",
+          "size": "M",
+          "price": 170000
+        },
+        {
+          "id": "sz3",
+          "size": "L",
+          "price": 190000
+        }
+      ],
+      "price": 150000,
+      "quantity": 100,
+      "status": 0
+    }
+  ],
+  "productSale": [],
+  "productOrder": [],
+  "favouriteProduct": [],
+  "recentlyProduct": [],
+  "reviews": [],
+  "follows": [
+    {
+      "id": "fwi1",
+      "userId": "e017",
+      "following": "b080"
+    },
+    {
+      "id": "fwi2",
+      "userId": "e017",
+      "following": "1461"
+    },
+    {
+      "id": "fw23",
+      "userId": "1461",
+      "following": "e017"
+    }
+  ],
+  "vouchers": [],
+  "carts": [],
+  "messages": [],
+  "notifications": [],
+  "videos": [],
+  "foodShop": [],
+  "foodOrder": [],
+  "foodSale": [],
+  "favouriteFoodShop": []
+}
